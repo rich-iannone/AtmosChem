@@ -12,3 +12,8 @@ CH3OH_OH__HO2_HCHO <- "2.85E-12 * exp(-345/temp)"
 C2H5OH_OH__C2H5O  <- "3.0E-12 * exp(20/temp) * 0.05"
 C2H5OH_OH__CH3CHO_HO2 <- "3.0E-12 * exp(20/temp) * 0.9"
 C2H5OH_OH__HOCH2CH2O2 <- "3.0E-12 * exp(20/temp) * 0.05"
+
+# 1-Propanol (n-propanol)
+NPROPOL_OH__C2H5CHO_HO2 <- "4.6E-12 * exp(70/temp) * 0.494"
+NPROPOL_OH__C2H5CHO_HO1C3O2 <- "4.6E-12 * exp(70/temp) * 0.063" 
+NPROPOL_OH__C2H5CHO_HYPROPO2 <- "4.6E-12 * exp(70/temp) * 0.443"
