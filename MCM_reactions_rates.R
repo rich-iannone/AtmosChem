@@ -175,3 +175,9 @@ CH4_OH__CH3O2 <- "1.85E-12 * exp(-1690/temp)"
 # Ethane
 C2H6_CL__C2H5O2 <- "8.3E-11 * exp(-100/temp)"
 C2H6_OH__C2H5O2 <- "6.9E-12 * exp(-1000/temp)"
+
+# Propane
+C3H8_CL__IC3H7O2 <- "1.4E-10 * 0.43 * exp(75/temp)"
+C3H8_CL__NC3H7O2 <- "1.4E-10 * 0.59 * exp(-90/temp)"
+C3H8_OH__IC3H7O2 <- "7.6E-12 * exp(-585/temp) * 0.736"
+C3H8_OH__NC3H7O2 <- "7.6E-12 * exp(-585/temp) * 0.264"
