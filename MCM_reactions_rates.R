@@ -193,3 +193,11 @@ IC4H10_CL__IC4H9O2 <- "1.43E-10 * 0.564"
 IC4H10_CL__TC4H9O2 <- "1.43E-10 * 0.436"
 IC4H10_OH__IC4H9O2 <- "1.16E-17 * temp@2 * exp(225/temp) * 0.206"
 IC4H10_OH__TC4H9O2 <- "1.16E-17 * temp@2 * exp(225/temp) * 0.794"
+
+# Pentane (n-pentane)
+NC5H12_CL__PEAO2 <- "2.80E-10 * 0.222" 
+NC5H12_CL__PEBO2 <- "2.80E-10 * 0.558"
+NC5H12_CL__PECO2 <- "2.80E-10 * 0.220"
+NC5H12_OH__PEAO2 <- "2.44E-17 * temp@2 * exp(183/temp) * 0.083"
+NC5H12_OH__PEBO2 <- "2.44E-17 * temp@2 * exp(183/temp) * 0.568"
+NC5H12_OH__PECO2 <- "2.44E-17 * temp@2 * exp(183/temp) * 0.349"
