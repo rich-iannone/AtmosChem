@@ -21,3 +21,8 @@ NPROPOL_OH__C2H5CHO_HYPROPO2 <- "4.6E-12 * exp(70/temp) * 0.443"
 # 2-Propanol (i-propanol)
 IPROPOL_OH__CH3COCH3_HO2 <- "2.6E-12 * exp(200/temp) * 0.86"
 IPROPOL_OH__IPROPOLO2 <- "2.6E-12 * exp(200/temp) * 0.139"
+
+# 1-Butanol (n-butanol)
+NBUTOL_OH__C3H7CHO_HO2 <- "5.3E-12 * exp(140/temp) * 0.358"
+NBUTOL_OH__NBUTOLAO2 <- "5.3E-12 * exp(140/temp) * 0.321"
+NBUTOL_OH__NBUTOLBO2 <- "5.3E-12 * exp(140/temp) * 0.321"
