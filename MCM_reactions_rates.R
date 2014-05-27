@@ -289,3 +289,12 @@ NC12H26_OH__DDECO2 <- "1.39E-11"
 # Cyclohexane
 CHEX_CL__CHEXO2 <- "3.50E-10"
 CHEX_OH__CHEXO2 <- "2.88E-17 * temp@2 * exp(309/temp)"
+
+####
+# Reactions of alkenes
+####
+
+# Ethene (ethylene)
+C2H4_NO3__ETHENO3O2 <- "3.3E-12 * exp(-2880/temp)"
+C2H4_O3__HCHO_CH2OOA <- "9.1E-15 * exp(-2580/temp)"
+C2H4_OH__HOCH2CH2O2 <- "KMT15"
