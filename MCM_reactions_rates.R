@@ -77,3 +77,7 @@ MIBKAOH__TBUTOLO2_CH3CO3 <- "J22"
 
 # Ethane-1,2-diol (ethylene glycol) 
 ETHGLY_OH__HOCH2CHO <- "1.45E-11"
+
+# Propane-1,2-diol (propylene glycol)
+PROPGLY_OH__ACETOL_HO2 <- "1.20E-11 * 0.613"
+PROPGLY_OH__CH3CHOHCHO <- "1.20E-11 * 0.387"
