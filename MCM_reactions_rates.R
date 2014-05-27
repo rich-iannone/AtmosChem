@@ -253,3 +253,9 @@ M23C4_OH__M22C4O2 <- "1.24E-17 * temp@2 * exp(494/temp) * 0.123"
 # Heptane (n-heptane)
 NC7H16_CL__HEPTO2 <- "3.90E-10"
 NC7H16_OH__HEPTO2 <- "1.59E-17 * temp@2 * exp(478/temp)"
+
+# 2-Methylhexane
+M2HEX_CL__M2HEXAO2 <- "3.50E-10 * 0.779"
+M2HEX_CL__M2HEXBO2 <- "3.50E-10 * 0.221"
+M2HEX_OH__M2HEXAO2 <- "6.86E-12 * 0.625"
+M2HEX_OH__M2HEXBO2 <- "6.86E-12 * 0.375"
