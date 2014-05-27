@@ -249,3 +249,7 @@ M23C4_CL__M22C43O2 <- "2.30E-10 * 0.478"
 M23C4_CL__M22C4O2 <- "2.30E-10 * 0.522"
 M23C4_OH__M22C43O2 <- "1.24E-17 * temp@2 * exp(494/temp) * 0.877"
 M23C4_OH__M22C4O2 <- "1.24E-17 * temp@2 * exp(494/temp) * 0.123"
+
+# Heptane (n-heptane)
+NC7H16_CL__HEPTO2 <- "3.90E-10"
+NC7H16_OH__HEPTO2 <- "1.59E-17 * temp@2 * exp(478/temp)"
