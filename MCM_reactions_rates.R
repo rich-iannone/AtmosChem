@@ -5,3 +5,5 @@
 # Reactions of alcohols
 ####
 
+# Methanol
+CH3OH_OH__HO2_HCHO <- "2.85E-12 * exp(-345/temp)"
