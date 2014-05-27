@@ -106,3 +106,8 @@ CH3CHO__CH3O2_HO2_CO <- "J13"
 CH3CHO_NO3__HNO3_CH3CO3 <- "1.4E-12 * exp(-1860/temp)"
 CH3CHO_OH__CH3CO3 <- "4.7E-12 * exp(345/temp) * 0.95"
 CH3CHO_OH__HCOCH2O2 <- "4.7E-12 * exp(345/temp) * 0.05"
+
+# Propanal (proprionaldehyde) 
+C2H5CHO_OH__C2H5CO3_HNO3 <- "3.24E-12 * exp(-1860/temp)"
+C2H5CHO_OH__C2H5CO3 <- "4.9E-12 * exp(405/temp)"
+C2H5CHO__C2H5O2_HO2_CO <- "J14"
