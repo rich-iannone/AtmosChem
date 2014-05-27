@@ -269,3 +269,7 @@ M3HEX_OH__M3HEXBO2 <- "7.15E-12 * 0.442"
 # Octane (n-octane)
 NC8H18_CL__OCTO2 <- "4.60E-10"
 NC8H18_OH__OCTO2 <- "2.76E-17 * temp@2 * exp(378/temp)"
+
+# Nonane (n-nonane)
+NC9H20_CL__NONO2 <- "4.80E-10"
+NC9H20_OH__NONO2 <- "2.51E-17 * temp@2 * exp(447/temp)"
