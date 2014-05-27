@@ -209,3 +209,11 @@ IC5H12_CL__IPECO2 <- "2.20E-10 * 0.250"
 IC5H12_OH__IPEAO2 <- "3.70E-12 * 0.087"
 IC5H12_OH__IPEBO2 <- "3.70E-12 * 0.297"
 IC5H12_OH__IPECO2 <- "3.70E-12 * 0.616"
+
+# Hexane (n-hexane)
+NC6H14_CL__HEXAO2 <- "3.40E-10 * 0.182"
+NC6H14_CL__HEXBO2 <- "3.40E-10 * 0.457"
+NC6H14_CL__HEXCO2 <- "3.40E-10 * 0.361"
+NC6H14_OH__HEXAO2 <- "1.53E-17 * temp@2 * exp(414/temp) * 0.061"
+NC6H14_OH__HEXBO2 <- "1.53E-17 * temp@2 * exp(414/temp) * 0.421"
+NC6H14_OH__HEXCO2 <- "1.53E-17 * temp@2 * exp(414/temp) * 0.518"
