@@ -90,3 +90,13 @@ MBO_O3__IBUTALOH_CH2OOB <- "1.0E-17 * 0.7"
 MBO_OH__MBOAO2 <- "8.1E-12*exp(610/temp) * 0.67"
 MBO_OH__MBOBO2 <- "8.1E-12*exp(610/temp) * 0.33"
 
+
+####
+# Reactions of aldehydes
+####
+
+# Methanal (formaldehyde) 
+HCHO_hv__CO_HO2_HO2 <- "J11"
+HCHO_hv__H2_CO <- "J11"
+HCHO_NO3__HNO3_CO_HO2 <- "5.5E-16"
+HCHO_OH__HO2_CO <- "5.4E-12 * exp(135/temp)"
