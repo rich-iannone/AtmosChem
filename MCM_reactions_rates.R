@@ -81,3 +81,12 @@ ETHGLY_OH__HOCH2CHO <- "1.45E-11"
 # Propane-1,2-diol (propylene glycol)
 PROPGLY_OH__ACETOL_HO2 <- "1.20E-11 * 0.613"
 PROPGLY_OH__CH3CHOHCHO <- "1.20E-11 * 0.387"
+
+# 2-Methyl-3-buten-2-ol
+MBO_NO3__NMBOAO2 <- "4.6E-14*exp(-400/temp) * 0.65"
+MBO_NO3__NMBOBO2 <- "4.6E-14*exp(-400/temp) * 0.35"
+MBO_O3__HCHO_MBOOOA <- "1.0E-17 * 0.3"
+MBO_O3__IBUTALOH_CH2OOB <- "1.0E-17 * 0.7"
+MBO_OH__MBOAO2 <- "8.1E-12*exp(610/temp) * 0.67"
+MBO_OH__MBOBO2 <- "8.1E-12*exp(610/temp) * 0.33"
+
