@@ -370,7 +370,11 @@ DM23BU2ENE_NO3__C4ME2NO3O2 <- "5.72E-11"
 DM23BU2ENE_O3__CH3CCH3OOC_CH3COCH3 <- "3.03E-15 * exp(-294/temp)"
 DM23BU2ENE_OH__C4ME2OHO2 <- "1.10E-10"
 
+####
+# Reactions of alkynes
+####
 
-
-
+# Ethyne (acetylene)
+C2H2_OH__GLYOX_OH <- "KMT17 * 0.636"
+C2H2_OH__HCOOH_CO_HO2 <- "KMT17 * 0.364"
 
