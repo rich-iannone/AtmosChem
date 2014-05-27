@@ -35,3 +35,7 @@ BUT2OL_OH__MEK_HO2 <- "8.7E-12 * 0.639"
 IBUTOL_OH__IBUTOLBO2 <- "2.73E-12 * exp(352/temp) * 0.558"
 IBUTOL_OH__IBUTOLCO2 <- "2.73E-12 * exp(352/temp) * 0.090"
 IBUTOL_OH__IPRCHO_HO2 <- "2.73E-12 * exp(352/temp) * 0.352"
+
+# 2-Methyl-2-propanol (t-butanol)
+TBUTOL_OH__TBUTOLO2 <- "1.6E-12 * exp(-121/temp) * 0.888"
+TBUTOL_OH__TC4H9O <- "1.6E-12 * exp(-121/temp) * 0.112"
