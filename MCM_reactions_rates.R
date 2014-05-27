@@ -125,3 +125,9 @@ IPRCHO_OH__IBUTALBO2 <- "6.8E-12 * exp(410/temp) * 0.054"
 IPRCHO_OH__IBUTALCO2 <- "6.8E-12 * exp(410/temp) * 0.059"
 IPRCHO_OH__IPRCO3 <- "6.8E-12 * exp(410/temp) * 0.887"
 IPRCHO__IC3H7O2_HO2_CO <- "J17"
+
+# Pentanal (Valeraldehyde)
+C4H9CHO_NO3__C4H9CO3_HNO3 <- "KNO3AL * 5.5"
+C4H9CHO_OH__C4CHOBO2 <- "6.34E-12 * exp(448/temp) * 0.19"
+C4H9CHO_OH__C4H9CO3 <- "6.34E-12 * exp(448/temp) * 0.81"
+C4H9CHO__NC4H9O2 <- "J15"
