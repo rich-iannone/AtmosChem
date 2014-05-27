@@ -281,3 +281,7 @@ NC10H22_OH__DECO2 <- "3.13E-17 * temp@2 * exp(416/temp)"
 # Hendecane (n-undecane)
 NC11H24_CL__UDECO2 <- "6.17E-10"
 NC11H24_OH__UDECO2 <- "1.29E-11"
+
+# Dodecane (n-dodecane)
+NC12H26_CL__DDECO2 <- "6.74E-10"
+NC12H26_OH__DDECO2 <- "1.39E-11"
