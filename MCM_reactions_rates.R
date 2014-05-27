@@ -298,3 +298,12 @@ CHEX_OH__CHEXO2 <- "2.88E-17 * temp@2 * exp(309/temp)"
 C2H4_NO3__ETHENO3O2 <- "3.3E-12 * exp(-2880/temp)"
 C2H4_O3__HCHO_CH2OOA <- "9.1E-15 * exp(-2580/temp)"
 C2H4_OH__HOCH2CH2O2 <- "KMT15"
+
+# Propene (propylene)
+C3H6_NO3__PRONO3AO2 <- "4.6E-13 * exp(-1155/temp) * 0.35"
+C3H6_NO3__PRONO3BO2 <- "4.6E-13 * exp(-1155/temp) * 0.65"
+C3H6_O3__CH2OOB_CH3CHO <- "5.5E-15 * exp(-1880/temp) * 0.5"
+C3H6_O3__CH3CHOOA_HCHO <- "5.5E-15 * exp(-1880/temp) * 0.5"
+C3H6_OH__HYPROPO2 <- "KMT16 * 0.87"
+C3H6_OH__IPROPOLO2 <- "KMT16 * 0.13"
+
