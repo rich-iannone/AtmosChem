@@ -163,3 +163,11 @@ C4ALDB_OH__C3DBCO3 <- "0.5 * 3.4E-11"
 C4ALDB_OH__C4OCCOHCO2 <- "0.25 * 3.4E-11"
 C4ALDB_OH__COCCOH2CO2 <- "0.25 * 3.4E-11"
 C4ALDB__CH3CHO_CO_HO2_CO_HO2 <- "1.44 * J18" 
+
+####
+# Reactions of alkanes
+####
+
+# Methane
+CH4_CL__CH3O2 <- "6.6E-12 * exp(-1240/temp)"
+CH4_OH__CH3O2 <- "1.85E-12 * exp(-1690/temp)"
