@@ -111,3 +111,10 @@ CH3CHO_OH__HCOCH2O2 <- "4.7E-12 * exp(345/temp) * 0.05"
 C2H5CHO_OH__C2H5CO3_HNO3 <- "3.24E-12 * exp(-1860/temp)"
 C2H5CHO_OH__C2H5CO3 <- "4.9E-12 * exp(405/temp)"
 C2H5CHO__C2H5O2_HO2_CO <- "J14"
+
+# Butanal (butyraldehyde) 
+C3H7CHO_NO3__C3H7CO3_HNO3 <- "1.7E-12 * exp(-1500/temp)"
+C3H7CHO_OH__BUTALO2 <- "6.0E-12 * exp(410/temp) * 0.151"
+C3H7CHO_OH__C3H7CO3 <- "6.0E-12 * exp(410/temp) * 0.849"
+C3H7CHO__NC3H7O2_CO_HO2 <- "J15"
+C3H7CHO__CH3CHO_C2H4 <- "J16"
