@@ -387,8 +387,9 @@ C4H6_NO3__NBUTDAO2 <- "1.03E-13 * 0.5"
 C4H6_NO3__NBUTDBO2 <- "1.03E-13 * 0.5"
 C4H6_O3__ACR_CH2OOD <- "1.34E-14 * exp(-2283/temp) * 0.5"
 C4H6_O3__ACROOA_HCHO <- "1.34E-14 * exp(-2283/temp) * 0.5"
-C4H6_OH__BUTDAO2 <- "1.48D-11 * exp(448/temp) * 0.217"
-C4H6_OH__BUTDBO2 <- "1.48D-11 * exp(448/temp) * 0.649"
-C4H6_OH__BUTDCO2 <- "1.48D-11 * exp(448/temp) * 0.134"
+C4H6_OH__BUTDAO2 <- "1.48E-11 * exp(448/temp) * 0.217"
+C4H6_OH__BUTDBO2 <- "1.48E-11 * exp(448/temp) * 0.649"
+C4H6_OH__BUTDCO2 <- "1.48E-11 * exp(448/temp) * 0.134"
+
 
 
