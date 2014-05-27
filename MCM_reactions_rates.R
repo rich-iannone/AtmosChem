@@ -402,4 +402,18 @@ C5H8_OH__ISOPBO2 <- "2.7E-11 * exp(390/temp) * 0.444"
 C5H8_OH__ISOPCO2 <- "2.7E-11 * exp(390/temp) * 0.102"
 C5H8_OH__ISOPDO2 <- "2.7E-11 * exp(390/temp) * 0.306"
 
+####
+# Reactions of monoterpenes
+####
+
+# Alpha pinene
+APINENE_NO3__NAPINAO2 <- "1.2E-12 * exp(490/temp) * 0.65"
+APINENE_NO3__NAPINBO2 <- "1.2E-12 * exp(490/temp) * 0.35"
+APINENE_O3__APINOOA <- "6.3E-16 * exp(-580/temp) * 0.6"
+APINENE_O3__APINOOB <- "6.3E-16 * exp(-580/temp) * 0.4"
+APINENE_OH__APINAO2 <- "1.2E-11 * exp(440/temp) * 0.572"
+APINENE_OH__APINBO2 <- "1.2E-11 * exp(440/temp) * 0.353"
+APINENE_OH__APINCO2 <- "1.2E-11 * exp(440/temp) * 0.075"
+
+
 
