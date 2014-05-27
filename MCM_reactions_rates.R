@@ -171,3 +171,7 @@ C4ALDB__CH3CHO_CO_HO2_CO_HO2 <- "1.44 * J18"
 # Methane
 CH4_CL__CH3O2 <- "6.6E-12 * exp(-1240/temp)"
 CH4_OH__CH3O2 <- "1.85E-12 * exp(-1690/temp)"
+
+# Ethane
+C2H6_CL__C2H5O2 <- "8.3E-11 * exp(-100/temp)"
+C2H6_OH__C2H5O2 <- "6.9E-12 * exp(-1000/temp)"
