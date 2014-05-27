@@ -273,3 +273,7 @@ NC8H18_OH__OCTO2 <- "2.76E-17 * temp@2 * exp(378/temp)"
 # Nonane (n-nonane)
 NC9H20_CL__NONO2 <- "4.80E-10"
 NC9H20_OH__NONO2 <- "2.51E-17 * temp@2 * exp(447/temp)"
+
+# Decane (n-decane)
+NC10H22_CL__DECO2 <- "5.55E-10"
+NC10H22_OH__DECO2 <- "3.13E-17 * temp@2 * exp(416/temp)"
