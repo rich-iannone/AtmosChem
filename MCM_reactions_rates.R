@@ -100,3 +100,9 @@ HCHO_hv__CO_HO2_HO2 <- "J11"
 HCHO_hv__H2_CO <- "J11"
 HCHO_NO3__HNO3_CO_HO2 <- "5.5E-16"
 HCHO_OH__HO2_CO <- "5.4E-12 * exp(135/temp)"
+
+# Ethanal (acetaldehyde)
+CH3CHO__CH3O2_HO2_CO <- "J13"
+CH3CHO_NO3__HNO3_CH3CO3 <- "1.4E-12 * exp(-1860/temp)"
+CH3CHO_OH__CH3CO3 <- "4.7E-12 * exp(345/temp) * 0.95"
+CH3CHO_OH__HCOCH2O2 <- "4.7E-12 * exp(345/temp) * 0.05"
