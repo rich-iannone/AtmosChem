@@ -318,8 +318,7 @@ BUT1ENE_OH__NBUTOLAO2 <- "6.6E-12 * exp(465/temp) * 0.87"
 # cis-2-Butene
 CBUT2ENE_NO3__C42NO33O2 <- "3.50E-13"
 CBUT2ENE_O3__CH3CHO_CH3CHOOB <- "3.22E-15 * exp(-968/temp)"
-CBUT2ENE_OH__BUT2OLO2 <- "1.10e-11 * exp(487/temp)"
-
+CBUT2ENE_OH__BUT2OLO2 <- "1.10E-11 * exp(487/temp)"
 
 
 
