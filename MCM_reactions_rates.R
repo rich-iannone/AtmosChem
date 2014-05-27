@@ -187,3 +187,9 @@ NC4H10_CL__NC4H9O2 <- "2.05E-10 * 0.44 * exp(-120/temp)"
 NC4H10_CL__SC4H9O2 <- "2.05E-10 * 0.59 * exp(55/temp)"
 NC4H10_OH__NC4H9O2 <- "9.8E-12 * exp(-425/temp) * 0.127"
 NC4H10_OH__SC4H9O2 <- "9.8E-12 * exp(-425/temp) * 0.873"
+
+# 2-Methyl-propane (i-butane) 
+IC4H10_CL__IC4H9O2 <- "1.43E-10 * 0.564"
+IC4H10_CL__TC4H9O2 <- "1.43E-10 * 0.436"
+IC4H10_OH__IC4H9O2 <- "1.16E-17 * temp@2 * exp(225/temp) * 0.206"
+IC4H10_OH__TC4H9O2 <- "1.16E-17 * temp@2 * exp(225/temp) * 0.794"
