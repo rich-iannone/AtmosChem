@@ -201,3 +201,11 @@ NC5H12_CL__PECO2 <- "2.80E-10 * 0.220"
 NC5H12_OH__PEAO2 <- "2.44E-17 * temp@2 * exp(183/temp) * 0.083"
 NC5H12_OH__PEBO2 <- "2.44E-17 * temp@2 * exp(183/temp) * 0.568"
 NC5H12_OH__PECO2 <- "2.44E-17 * temp@2 * exp(183/temp) * 0.349"
+
+# 2-Methylbutane (1-pentane)
+IC5H12_CL__IPEAO2 <- "2.20E-10 * 0.408"
+IC5H12_CL__IPEBO2 <- "2.20E-10 * 0.342"
+IC5H12_CL__IPECO2 <- "2.20E-10 * 0.250"
+IC5H12_OH__IPEAO2 <- "3.70E-12 * 0.087"
+IC5H12_OH__IPEBO2 <- "3.70E-12 * 0.297"
+IC5H12_OH__IPECO2 <- "3.70E-12 * 0.616"
