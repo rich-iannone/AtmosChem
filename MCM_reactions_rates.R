@@ -285,3 +285,7 @@ NC11H24_OH__UDECO2 <- "1.29E-11"
 # Dodecane (n-dodecane)
 NC12H26_CL__DDECO2 <- "6.74E-10"
 NC12H26_OH__DDECO2 <- "1.39E-11"
+
+# Cyclohexane
+CHEX_CL__CHEXO2 <- "3.50E-10"
+CHEX_OH__CHEXO2 <- "2.88E-17 * temp@2 * exp(309/temp)"
