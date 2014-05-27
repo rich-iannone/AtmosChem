@@ -307,3 +307,12 @@ C3H6_O3__CH3CHOOA_HCHO <- "5.5E-15 * exp(-1880/temp) * 0.5"
 C3H6_OH__HYPROPO2 <- "KMT16 * 0.87"
 C3H6_OH__IPROPOLO2 <- "KMT16 * 0.13"
 
+# 1-Butene
+BUT1ENE_NO3__BU1ENO3O2 <- "3.2E-13 * exp(-950/temp) * 0.65"
+BUT1ENE_NO3__C43NO34O2 <- "3.2E-13 * exp(-950/temp) * 0.35"
+BUT1ENE_O3__C2H5CHOOA_HCHO <- "3.55E-15 * exp(-1745/temp) * 0.5"
+BUT1ENE_O3__CH2OOB_C2H5CHO <- "3.55E-15 * exp(-1745/temp) * 0.5"
+BUT1ENE_OH__HO3C4O2 <- "6.6E-12 * exp(465/temp) * 0.13"
+BUT1ENE_OH__NBUTOLAO2 <- "6.6E-12 * exp(465/temp) * 0.87"
+
+
