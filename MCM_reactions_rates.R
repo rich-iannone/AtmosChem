@@ -142,3 +142,13 @@ ACR_O3__GLYOOB_HCHO <- "0.5 * 2.9E-19"
 ACR__ACO3 <- "0.3 * J18"
 ACR__C2H4_CO <- "0.4 * J18"
 ACR__HCHO_HO2_CO <- "0.3 * J18"
+
+# 2-Methylpropenal (methacrolein) 
+MACR_NO3__MACO3_HNO3 <- "3.4E-15"
+MACR_O3__HCHO_MGLYOOB <- "1.4E-15 * exp(-2100/temp) * 0.12"
+MACR_O3__MGLYOX_CH2OOG <- "1.4E-15 * exp(-2100/temp) * 0.88"
+MACR_OH__MACO3 <- "8.0E-12 * exp(380/temp) * 0.45"
+MACR_OH__MACRO2 <- "8.0E-12 * exp(380/temp) * 0.47"
+MACR_OH__MACROHO2 <- "8.0E-12 * exp(380/temp) * 0.08"
+MACR__CH3C2H2O2_CO_HO2 <- "J18" 
+MACR__MACO3_HO2 <- "J19"
