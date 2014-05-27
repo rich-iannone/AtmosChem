@@ -424,3 +424,16 @@ BPINENE_OH__BPINAO2 <- "2.38E-11 * exp(357/temp) * 0.849"
 BPINENE_OH__BPINBO2 <- "2.38E-11 * exp(357/temp) * 0.076"
 BPINENE_OH__BPINCO2 <- "2.38E-11 * exp(357/temp) * 0.075"
 
+# Limonene
+LIMONENE_NO3__NLIMO2 <- "1.22E-11"
+LIMONENE_O3__LIMOOA <- "2.95E-15 * exp(-783/temp) * 0.730"
+LIMONENE_O3__LIMOOB <- "2.95E-15 * exp(-783/temp) * 0.270"
+LIMONENE_OH__LIMAO2 <- "4.28E-11 * exp(401/temp) * 0.408"
+LIMONENE_OH__LIMBO2 <- "4.28E-11 * exp(401/temp) * 0.222"
+LIMONENE_OH__LIMCO2 <- "4.28E-11 * exp(401/temp) * 0.370"
+
+
+
+
+
+  
