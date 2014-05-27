@@ -118,3 +118,10 @@ C3H7CHO_OH__BUTALO2 <- "6.0E-12 * exp(410/temp) * 0.151"
 C3H7CHO_OH__C3H7CO3 <- "6.0E-12 * exp(410/temp) * 0.849"
 C3H7CHO__NC3H7O2_CO_HO2 <- "J15"
 C3H7CHO__CH3CHO_C2H4 <- "J16"
+
+# Methylpropanal (i-butyraldehyde) 
+IPRCHO_NO3__IPRCO3_HNO3 <- "1.67E-12 * exp(-1460/temp)"
+IPRCHO_OH__IBUTALBO2 <- "6.8E-12 * exp(410/temp) * 0.054"
+IPRCHO_OH__IBUTALCO2 <- "6.8E-12 * exp(410/temp) * 0.059"
+IPRCHO_OH__IPRCO3 <- "6.8E-12 * exp(410/temp) * 0.887"
+IPRCHO__IC3H7O2_HO2_CO <- "J17"
