@@ -391,5 +391,15 @@ C4H6_OH__BUTDAO2 <- "1.48E-11 * exp(448/temp) * 0.217"
 C4H6_OH__BUTDBO2 <- "1.48E-11 * exp(448/temp) * 0.649"
 C4H6_OH__BUTDCO2 <- "1.48E-11 * exp(448/temp) * 0.134"
 
+# 2-Methyl-1,3-butadiene (isoprene)
+C5H8_NO3__NISOPO2 <- "3.15E-12 * exp(-450/temp)"
+C5H8_O3__MACR_CH2OOE <- "1.03E-14 * exp(-1995/temp) * 0.3"
+C5H8_O3__MVK_CH2OOE <- "1.03E-14 * exp(-1995/temp) * 0.2"
+C5H8_O3__MACROOA_HCHO <- "1.03E-14 * exp(-1995/temp) * 0.3"
+C5H8_O3__MVKOOA_HCHO <- "1.03E-14 * exp(-1995/temp) * 0.2"
+C5H8_OH__ISOPAO2 <- "2.7E-11 * exp(390/temp) * 0.148"
+C5H8_OH__ISOPBO2 <- "2.7E-11 * exp(390/temp) * 0.444"
+C5H8_OH__ISOPCO2 <- "2.7E-11 * exp(390/temp) * 0.102"
+C5H8_OH__ISOPDO2 <- "2.7E-11 * exp(390/temp) * 0.306"
 
 
