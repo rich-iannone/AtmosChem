@@ -181,3 +181,9 @@ C3H8_CL__IC3H7O2 <- "1.4E-10 * 0.43 * exp(75/temp)"
 C3H8_CL__NC3H7O2 <- "1.4E-10 * 0.59 * exp(-90/temp)"
 C3H8_OH__IC3H7O2 <- "7.6E-12 * exp(-585/temp) * 0.736"
 C3H8_OH__NC3H7O2 <- "7.6E-12 * exp(-585/temp) * 0.264"
+
+# n-Butane
+NC4H10_CL__NC4H9O2 <- "2.05E-10 * 0.44 * exp(-120/temp)"
+NC4H10_CL__SC4H9O2 <- "2.05E-10 * 0.59 * exp(55/temp)"
+NC4H10_OH__NC4H9O2 <- "9.8E-12 * exp(-425/temp) * 0.127"
+NC4H10_OH__SC4H9O2 <- "9.8E-12 * exp(-425/temp) * 0.873"
