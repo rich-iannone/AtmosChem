@@ -583,5 +583,9 @@ CH3OCHO_OH__CHOOCH2O2 <- "9.39E-13 * exp(-461/temp) * 0.550"
 METHACET_OH__METHACETO2 <- "8.54E-19 * temp@2 * exp(455/temp) * 0.685"
 METHACET_OH__MOCOCH2O2 <- "8.54E-19 * temp@2 * exp(455/temp) * 0.315"
 
+# Ethyl acetate
+ETHACET_OH__ACETC2H4O2 <- "6.92E-19 * temp@2 * exp(986/temp) * 0.095"
+ETHACET_OH__EOCOCH2O2 <- "6.92E-19 * temp@2 * exp(986/temp) * 0.057"
+ETHACET_OH__ETHACETO2 <- "6.92E-19 * temp@2 * exp(986/temp) * 0.848"
 
   
