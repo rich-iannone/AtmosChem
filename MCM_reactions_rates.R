@@ -592,3 +592,7 @@ ETHACET_OH__ETHACETO2 <- "6.92E-19 * temp@2 * exp(986/temp) * 0.848"
 NPROACET_OH__NPROACEAO2 <- "1.39E-18 * temp@2 * exp(991/temp) * 0.364"
 NPROACET_OH__NPROACEBO2 <- "1.39E-18 * temp@2 * exp(991/temp) * 0.583"
 NPROACET_OH__NPROACECO2 <- "1.39E-18 * temp@2 * exp(991/temp) * 0.053"
+
+# i-Propyl acetate
+IPROACET_OH__IPRACBO2 <- "2.64E-13 * exp(770/temp) * 0.098"
+IPROACET_OH__IPROACETO2 <- "2.64E-13 * exp(770/temp) * 0.902"
