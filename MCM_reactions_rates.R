@@ -605,3 +605,7 @@ NBUTACET_OH__NBUACETCO2 <- "2.48E-18 * temp@2 * exp(926/temp) * 0.417"
 # s-Butyl acetate
 SBUTACET_OH__SBUACETAO2 <- "6.66E-13 * exp(640/temp) * 0.768"
 SBUTACET_OH__SBUACETBO2 <- "6.66E-13 * exp(640/temp) * 0.232"
+
+# t-Butyl acetate
+TBUACET_OH__MCOOTBO2 <- "1.88E-12 * exp(-395/temp) * 0.834"
+TBUACET_OH__TBOCOCH2O2 <- "1.88E-12 * exp(-395/temp) * 0.166"
