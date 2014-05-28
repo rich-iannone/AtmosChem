@@ -725,3 +725,8 @@ MIBK__CH3CO3_IC4H9O2 <- "J22"
 # 3,3-Dimethyl 2-butanone (methyl t-butyl ketone)
 MTBK_OH__MTBKO2 <- "1.21E-12"
 MTBK__TC4H9O2_CH3CO3 <- "J22"
+
+# Cyclohexanone
+CYHEXONE_OH__CYHXONAO2 <- "5.40D-12"
+CYHEXONE__C2H4_C3H6 <- "J22 * 0.5"
+CYHEXONE__PENT1ENE <- "J22 * 0.5"
