@@ -633,3 +633,10 @@ MTBE_OH__MTBEBO2 <- "6.54E-18 * temp@2 * exp(483/temp) * 0.49"
 DIIPRETHER_NO3__DIIPRETO2_HNO3 <- "6.50E-15"
 DIIPRETHER_OH__DIIPRETO2 <- "2.20E-12 * exp(457/temp) * 0.827"
 DIIPRETHER_OH__IPROMC2O2 <- "2.20E-12 * exp(457/temp) * 0.173"
+
+# Ethyl t-butylether
+ETBE_NO3__ETBEAO2_HNO3 <- "1.91E-15 * 0.267"
+ETBE_NO3__ETBEBO2_HNO3 <- "1.91E-15 * 0.733"
+ETBE_OH__ETBEAO2 <- "6.82E-18 * temp@2 * exp(800/temp) * 0.18"
+ETBE_OH__ETBEBO2 <- "6.82E-18 * temp@2 * exp(800/temp) * 0.76"
+ETBE_OH__ETBECO2 <- "6.82E-18 * temp@2 * exp(800/temp) * 0.06"
