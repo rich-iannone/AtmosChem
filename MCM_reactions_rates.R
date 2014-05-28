@@ -737,3 +737,6 @@ CYHEXONE__PENT1ENE <- "J22 * 0.5"
 
 # Methanoic acid
 HCOOH_OH__HO2 <- "4.5E-13"
+
+# Ethanoic acid
+CH3CO2H_OH__CH3O2 <- "8.0E-13"
