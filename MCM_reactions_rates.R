@@ -640,3 +640,10 @@ ETBE_NO3__ETBEBO2_HNO3 <- "1.91E-15 * 0.733"
 ETBE_OH__ETBEAO2 <- "6.82E-18 * temp@2 * exp(800/temp) * 0.18"
 ETBE_OH__ETBEBO2 <- "6.82E-18 * temp@2 * exp(800/temp) * 0.76"
 ETBE_OH__ETBECO2 <- "6.82E-18 * temp@2 * exp(800/temp) * 0.06"
+
+# 2-Methoxy ethanol
+MO2EOL_NO3__MO2EOLAO2_HNO3 <- "1.53E-15 * 0.915"
+MO2EOL_NO3__MO2EOLBO2_HNO3 <- "1.53E-15 * 0.085"
+MO2EOL_OH__MEMOXYCHO_HO2 <- "4.10E-12 * exp(325/temp) * 0.358"
+MO2EOL_OH__MO2EOLAO2 <- "4.10E-12 * exp(325/temp) * 0.533"
+MO2EOL_OH__MO2EOLBO2 <- "4.10E-12 * exp(325/temp) * 0.109"
