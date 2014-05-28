@@ -730,3 +730,10 @@ MTBK__TC4H9O2_CH3CO3 <- "J22"
 CYHEXONE_OH__CYHXONAO2 <- "5.40D-12"
 CYHEXONE__C2H4_C3H6 <- "J22 * 0.5"
 CYHEXONE__PENT1ENE <- "J22 * 0.5"
+
+####
+# Reactions of organic acids
+####
+
+# Methanoic acid
+HCOOH_OH__HO2 <- "4.5E-13"
