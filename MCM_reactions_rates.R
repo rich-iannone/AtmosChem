@@ -688,3 +688,8 @@ MEK_OH__MEKAO2 <- "1.5E-12 * exp(-90/temp) * 0.459"
 MEK_OH__MEKBO2 <- "1.5E-12 * exp(-90/temp) * 0.462"
 MEK_OH__MEKCO2 <- "1.5E-12 * exp(-90/temp) * 0.079"
 MEK__CH3CO3_C2H5O2 <- "J22"
+
+# 2-Pentanone (methyl n-propyl ketone)
+MPRK_OH__CO2C54O2 <- "4.90E-12 * 0.818"
+MPRK_OH__MPRKAO2 <- "4.90E-12 * 0.182"
+MPRK__CH3CO3_NC3H7O2 <- "J22"
