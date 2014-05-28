@@ -721,3 +721,7 @@ HEX3ONE__C2H5CO3_NC3H7O2 <- "J22"
 MIBK_OH__MIBKAO2 <- "1.41E-11 * 0.91"
 MIBK_OH__MIBKBO2 <- "1.41E-11 * 0.09"
 MIBK__CH3CO3_IC4H9O2 <- "J22"
+
+# 3,3-Dimethyl 2-butanone (methyl t-butyl ketone)
+MTBK_OH__MTBKO2 <- "1.21E-12"
+MTBK__TC4H9O2_CH3CO3 <- "J22"
