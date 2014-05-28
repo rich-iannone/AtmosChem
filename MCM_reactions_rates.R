@@ -432,6 +432,15 @@ LIMONENE_OH__LIMAO2 <- "4.28E-11 * exp(401/temp) * 0.408"
 LIMONENE_OH__LIMBO2 <- "4.28E-11 * exp(401/temp) * 0.222"
 LIMONENE_OH__LIMCO2 <- "4.28E-11 * exp(401/temp) * 0.370"
 
+####
+# Reactions of aromatics
+####
+
+# Benzene
+BENZENE_OH__BZBIPERO2 <- "2.3E-12 * exp(-190/temp) * 0.352"
+BENZENE_OH__BZEPOXMUC_HO2 <- "2.3E-12 * exp(-190/temp) * 0.118"
+BENZENE_OH__PHENOL_HO2 <- "2.3E-12 * exp(-190/temp) * 0.530"
+
 
 
 
