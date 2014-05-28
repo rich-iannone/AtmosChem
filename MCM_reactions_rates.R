@@ -674,3 +674,11 @@ BOX2PROL_NO3__BOXPROLBO2_HNO3 <- "6.5E-15 * 0.5"
 BOX2PROL_OH__BOXPROLAO2 <- "2.78E-11 * 0.486"
 BOX2PROL_OH__BOXPROLBO2 <- "2.78E-11 * 0.276"
 BOX2PROL_OH__BOXPRONE <- "2.78E-11 * 0.238"
+
+####
+# Reactions of ketones
+####
+            
+# Propanone (acetone)
+CH3COCH3_OH__CH3COCH2O2 <- "(8.8E-12 * exp(-1320/temp)) + (1.7E-14 * exp(423/temp))"
+CH3COCH3__CH3CO3_CH3O2 <- "J21"
