@@ -455,6 +455,12 @@ BENZENE_OH__BZBIPERO2 <- "2.3E-12 * exp(-190/temp) * 0.352"
 BENZENE_OH__BZEPOXMUC_HO2 <- "2.3E-12 * exp(-190/temp) * 0.118"
 BENZENE_OH__PHENOL_HO2 <- "2.3E-12 * exp(-190/temp) * 0.530"
 
+# Methylbenzene (toluene)
+TOLUENE_OH__C6H5CH2O2 <- "1.8E-12 * exp(340/temp) * 0.07"
+TOLUENE_OH__CRESOL_HO2 <- "1.8E-12 * exp(340/temp) * 0.18" 
+TOLUENE_OH__TLBIPERO2 <- "1.8E-12 * exp(340/temp) * 0.65"
+TOLUENE_OH__TLEPOXMUC_HO2 <- "1.8E-12 * exp(340/temp) * 0.10"
+
 
 
 
