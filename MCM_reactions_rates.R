@@ -571,5 +571,13 @@ BENZAL__C6H5CO3_HO2 <- "J19"
 BENZAL_NO3__C6H5CO3_HNO3 <- "2.40E-15"
 BENZAL_OH__C6H5CO3 <- "5.9E-12 * exp(225/temp)"
 
+####
+# Reactions of esters
+####
+
+# Methyl formate
+CH3OCHO_OH__CH3O2 <- "9.39E-13 * exp(-461/temp) * 0.450"
+CH3OCHO_OH__CHOOCH2O2 <- "9.39E-13 * exp(-461/temp) * 0.550"
+
 
   
