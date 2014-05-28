@@ -682,3 +682,9 @@ BOX2PROL_OH__BOXPRONE <- "2.78E-11 * 0.238"
 # Propanone (acetone)
 CH3COCH3_OH__CH3COCH2O2 <- "(8.8E-12 * exp(-1320/temp)) + (1.7E-14 * exp(423/temp))"
 CH3COCH3__CH3CO3_CH3O2 <- "J21"
+
+# Butanone (methyl ethyl ketone)
+MEK_OH__MEKAO2 <- "1.5E-12 * exp(-90/temp) * 0.459"
+MEK_OH__MEKBO2 <- "1.5E-12 * exp(-90/temp) * 0.462"
+MEK_OH__MEKCO2 <- "1.5E-12 * exp(-90/temp) * 0.079"
+MEK__CH3CO3_C2H5O2 <- "J22"
