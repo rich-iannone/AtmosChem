@@ -617,3 +617,8 @@ TBUACET_OH__TBOCOCH2O2 <- "1.88E-12 * exp(-395/temp) * 0.166"
 # Dimethyl ether
 CH3OCH3_NO3__CH3OCH2O2_HNO3 <- "2.60E-16"
 CH3OCH3_OH__CH3OCH2O2 <- "5.7E-12 * exp(-215/temp)"
+
+# Diethyl ether
+DIETETHER_NO3__DIETETO2_HNO3 <- "2.80E-15"
+DIETETHER_OH__DIETETO2 <- "8.91E-18 * temp@2 * exp(837/temp) * 0.928"
+DIETETHER_OH__ETOC2O2 <- "8.91E-18 * temp@2 * exp(837/temp) * 0.072"
