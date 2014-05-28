@@ -740,3 +740,6 @@ HCOOH_OH__HO2 <- "4.5E-13"
 
 # Ethanoic acid
 CH3CO2H_OH__CH3O2 <- "8.0E-13"
+
+# Propanoic acid
+PROPACID_OH__C2H5O2 <- "1.2E-12"
