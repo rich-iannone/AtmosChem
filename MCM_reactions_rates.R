@@ -628,3 +628,8 @@ MTBE_NO3__MTBEAO2_HNO3 <- "6.40E-16 * 0.20"
 MTBE_NO3__MTBEBO2_HNO3 <- "6.40E-16 * 0.80"
 MTBE_OH__MTBEAO2 <- "6.54E-18 * temp@2 * exp(483/temp) * 0.51"
 MTBE_OH__MTBEBO2 <- "6.54E-18 * temp@2 * exp(483/temp) * 0.49"
+
+# Di i-propyl ether
+DIIPRETHER_NO3__DIIPRETO2_HNO3 <- "6.50E-15"
+DIIPRETHER_OH__DIIPRETO2 <- "2.20E-12 * exp(457/temp) * 0.827"
+DIIPRETHER_OH__IPROMC2O2 <- "2.20E-12 * exp(457/temp) * 0.173"
