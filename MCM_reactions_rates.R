@@ -609,3 +609,11 @@ SBUTACET_OH__SBUACETBO2 <- "6.66E-13 * exp(640/temp) * 0.232"
 # t-Butyl acetate
 TBUACET_OH__MCOOTBO2 <- "1.88E-12 * exp(-395/temp) * 0.834"
 TBUACET_OH__TBOCOCH2O2 <- "1.88E-12 * exp(-395/temp) * 0.166"
+
+####
+# Reactions of ethers and glycol ethers
+####
+
+# Dimethyl ether
+CH3OCH3_NO3__CH3OCH2O2_HNO3 <- "2.60E-16"
+CH3OCH3_OH__CH3OCH2O2 <- "5.7E-12 * exp(-215/temp)"
