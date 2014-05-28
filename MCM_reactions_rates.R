@@ -579,5 +579,9 @@ BENZAL_OH__C6H5CO3 <- "5.9E-12 * exp(225/temp)"
 CH3OCHO_OH__CH3O2 <- "9.39E-13 * exp(-461/temp) * 0.450"
 CH3OCHO_OH__CHOOCH2O2 <- "9.39E-13 * exp(-461/temp) * 0.550"
 
+# Methyl acetate
+METHACET_OH__METHACETO2 <- "8.54E-19 * temp@2 * exp(455/temp) * 0.685"
+METHACET_OH__MOCOCH2O2 <- "8.54E-19 * temp@2 * exp(455/temp) * 0.315"
+
 
   
