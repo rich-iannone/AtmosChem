@@ -433,6 +433,20 @@ LIMONENE_OH__LIMBO2 <- "4.28E-11 * exp(401/temp) * 0.222"
 LIMONENE_OH__LIMCO2 <- "4.28E-11 * exp(401/temp) * 0.370"
 
 ####
+# Reactions of sesquiterpenes
+####
+
+# Beta-caryophyllene
+BCARY_NO3__NBCO2 <- "1.90E-11"
+BCARY_O3__BCAOO <- "1.16E-14 * 0.435"
+BCARY_O3__BCBOO <- "1.16E-14 * 0.435"
+BCARY_O3__BCOOA <- "1.16E-14 * 0.100"
+BCARY_O3__BCOOB <- "1.16E-14 * 0.030"
+BCARY_OH__BCAO2 <- "1.97E-10 * 0.408"
+BCARY_OH__BCBO2 <- "1.97E-10 * 0.222"
+BCARY_OH__BCCO2 <- "1.97E-10 * 0.370"
+
+####
 # Reactions of aromatics
 ####
 
