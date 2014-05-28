@@ -622,3 +622,9 @@ CH3OCH3_OH__CH3OCH2O2 <- "5.7E-12 * exp(-215/temp)"
 DIETETHER_NO3__DIETETO2_HNO3 <- "2.80E-15"
 DIETETHER_OH__DIETETO2 <- "8.91E-18 * temp@2 * exp(837/temp) * 0.928"
 DIETETHER_OH__ETOC2O2 <- "8.91E-18 * temp@2 * exp(837/temp) * 0.072"
+
+# Methyl t-butyl ether
+MTBE_NO3__MTBEAO2_HNO3 <- "6.40E-16 * 0.20"
+MTBE_NO3__MTBEBO2_HNO3 <- "6.40E-16 * 0.80"
+MTBE_OH__MTBEAO2 <- "6.54E-18 * temp@2 * exp(483/temp) * 0.51"
+MTBE_OH__MTBEBO2 <- "6.54E-18 * temp@2 * exp(483/temp) * 0.49"
