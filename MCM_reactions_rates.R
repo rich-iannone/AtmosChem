@@ -461,6 +461,12 @@ TOLUENE_OH__CRESOL_HO2 <- "1.8E-12 * exp(340/temp) * 0.18"
 TOLUENE_OH__TLBIPERO2 <- "1.8E-12 * exp(340/temp) * 0.65"
 TOLUENE_OH__TLEPOXMUC_HO2 <- "1.8E-12 * exp(340/temp) * 0.10"
 
+# 1,2-Dimethyl benzene (o-xylene)
+OXYL_NO3__OXYLO2_HNO3 <- "4.10E-16"
+OXYL_OH__OXYBIPERO2 <- "1.36E-11 * 0.55"
+OXYL_OH__OXYEPOXMUC_HO2 <- "1.36E-11 * 0.24"
+OXYL_OH__OXYLO2 <- "1.36E-11 * 0.05"
+OXYL_OH__OXYLOL_HO2 <- "1.36E-11 * 0.16"
 
 
 
