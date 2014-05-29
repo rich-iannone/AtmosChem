@@ -743,3 +743,10 @@ CH3CO2H_OH__CH3O2 <- "8.0E-13"
 
 # Propanoic acid
 PROPACID_OH__C2H5O2 <- "1.2E-12"
+
+####
+# Reactions of chloro and hydrochlorocarbons
+####
+
+# Chloromethane (methyl chloride)
+CH3CL_OH__CH2CLO2 <- "7.33E-18 * temp@2 * exp(-809/temp)"
