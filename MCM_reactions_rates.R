@@ -814,3 +814,6 @@ VINCL_OH__CH2OHCCLO2 <- "8.49E-12 * 0.5"
 
 # Bromomethane
 CH3BR_OH__CH2BRO2 <- "7.40E-13 * exp(-875/temp)"
+
+# 1,2-Dibromoethane
+DIBRET_OH__DIBRETO2  <- "1.03E-17 * temp@2  *exp(-422/temp)"
