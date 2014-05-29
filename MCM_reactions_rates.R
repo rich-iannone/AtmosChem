@@ -769,3 +769,6 @@ TRICLETH_OH__C2CL3OHBO2 <- "3.0E-13 * exp(565/temp) * 0.50"
 
 # cis-1,2-Dichloroethene
 CDICLETH_OH__C2CL2OHO2 <- "1.94E-12 * exp(90/temp)"
+
+# trans-1,2-Dichloroethene
+TDICLETH_OH__C2CL2OHO2 <- "1.01E-12 * exp(250/temp)"
