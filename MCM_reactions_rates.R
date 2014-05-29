@@ -834,3 +834,9 @@ DMC_OH__DMCO2 <- "3.20E-13"
 DMS_NO3__CH3SCH2O2_HNO3 <- "1.9E-13 * exp(520/temp)"
 DMS_OH__CH3SCH2O2 <- "1.12E-11 * exp(-250/temp)"
 DMS_OH__HODMSO2 <- "KMT18"
+
+# Ethylene oxide (oxirane)
+ETHOX_OH__ETHOXO2 <- "0.95E-13"
+
+
+
