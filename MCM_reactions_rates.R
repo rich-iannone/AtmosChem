@@ -807,3 +807,10 @@ VINCL_O3__CHOCL_CH2OOB <- "2.45E-19 * 0.76"
 VINCL_O3__HCHO_CHCLOOA <- "2.45E-19 * 0.24"
 VINCL_OH__CCLOHCH2O2 <- "8.49E-12 * 0.5"
 VINCL_OH__CH2OHCCLO2 <- "8.49E-12 * 0.5"
+
+####
+# Reactions of hydrobromocarbons
+####
+
+# Bromomethane
+CH3BR_OH__CH2BRO2 <- "7.40E-13 * exp(-875/temp)"
