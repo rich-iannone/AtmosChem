@@ -779,3 +779,8 @@ CH2CLCH2CL_OH__DICLETO2 <- "8.69E-12 * exp(-1070/temp)"
 # 1,1-Dichloroethene
 CCL2CH2_OH__CH2OHCL2O2 <- "2.00E-12 * exp(506/temp) * 0.50"
 CCL2CH2_OH__CL2OHCH2O2 <- "2.00E-12 * exp(506/temp) * 0.50"
+
+# 1,2-Dichloropropane
+CL12PROP_OH__CL12PRAO2 <- "4.42E-13 * 0.11"
+CL12PROP_OH__CL12PRBO2 <- "4.42E-13 * 0.60"
+CL12PROP_OH__CL12PRCO2 <- "4.42E-13 * 0.29"
