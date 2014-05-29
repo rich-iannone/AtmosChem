@@ -775,3 +775,7 @@ TDICLETH_OH__C2CL2OHO2 <- "1.01E-12 * exp(250/temp)"
 
 # 1,2-Dichloroethane
 CH2CLCH2CL_OH__DICLETO2 <- "8.69E-12 * exp(-1070/temp)"
+
+# 1,1-Dichloroethene
+CCL2CH2_OH__CH2OHCL2O2 <- "2.00E-12 * exp(506/temp) * 0.50"
+CCL2CH2_OH__CL2OHCH2O2 <- "2.00E-12 * exp(506/temp) * 0.50"
