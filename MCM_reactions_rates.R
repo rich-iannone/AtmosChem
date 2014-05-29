@@ -756,3 +756,6 @@ CH2CL2_OH__CHCL2O2 <- "6.14E-18 * temp@2 * exp(-389/temp)"
 
 # Trichloromethane (chloroform)
 CHCL3_OH__CCL3O2 <- "1.80E-18 * temp@2 * exp(-129/temp)"
+
+# 1,1,1-Trichloroethane (methyl chloroform)
+CH3CCL3_OH__CCL3CH2O2 <- "2.25E-18 * temp@2 * exp(-910/temp)"
