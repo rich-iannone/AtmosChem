@@ -795,3 +795,7 @@ CH3CH2CL_OH__CH3CHCLO2 <- "7.78D-18 * temp@2 * exp(-152/temp) * 0.13"
 
 # 1,1,2,2-Tetrachloroethane
 CHCL2CHCL2_OH__CHCL2CL2O2 <- "5.13E-13"
+
+# 1,1,2-Trichloroethane
+CH2CLCHCL2_OH__CH2CL3O2 <- "4.44E-18 * temp@2 * exp(-208/temp) * 0.5"
+CH2CLCHCL2_OH__CHCL3O2 <- "4.44E-18 * temp@2 * exp(-208/temp) * 0.5"
