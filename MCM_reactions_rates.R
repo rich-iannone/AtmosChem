@@ -799,3 +799,11 @@ CHCL2CHCL2_OH__CHCL2CL2O2 <- "5.13E-13"
 # 1,1,2-Trichloroethane
 CH2CLCHCL2_OH__CH2CL3O2 <- "4.44E-18 * temp@2 * exp(-208/temp) * 0.5"
 CH2CLCHCL2_OH__CHCL3O2 <- "4.44E-18 * temp@2 * exp(-208/temp) * 0.5"
+
+# Chloroethene (vinyl chloride)
+VINCL_NO3__CCLNO3O2 <- "2.3E-16 * 0.35"
+VINCL_NO3__CNO3CLO2 <- "2.3E-16 * 0.65"
+VINCL_O3__CHOCL_CH2OOB <- "2.45E-19 * 0.76"
+VINCL_O3__HCHO_CHCLOOA <- "2.45E-19 * 0.24"
+VINCL_OH__CCLOHCH2O2 <- "8.49E-12 * 0.5"
+VINCL_OH__CH2OHCCLO2 <- "8.49E-12 * 0.5"
