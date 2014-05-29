@@ -788,3 +788,7 @@ CL12PROP_OH__CL12PRCO2 <- "4.42E-13 * 0.29"
 # 1,1-Dichloroethane
 CHCL2CH3_OH__CH3CCL2O2 <- "2.0E-12 * exp(-596/temp) * 0.85"
 CHCL2CH3_OH__CHCL2CH2O2 <- "2.0E-12 * exp(-596/temp) * 0.15"
+
+# Chloroethane
+CH3CH2CL_OH__CH2CLCH2O2 <- "7.78D-18 * temp@2 * exp(-152/temp) * 0.87"
+CH3CH2CL_OH__CH3CHCLO2 <- "7.78D-18 * temp@2 * exp(-152/temp) * 0.13"
