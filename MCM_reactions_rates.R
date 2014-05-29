@@ -1,3 +1,6 @@
+
+
+####
 # Gas-phase reactions and rate constants for atmospherically-relevant species
 # from the Master Chemical Mechanism (MCM) v3.2
 
@@ -838,5 +841,44 @@ DMS_OH__HODMSO2 <- "KMT18"
 # Ethylene oxide (oxirane)
 ETHOX_OH__ETHOXO2 <- "0.95E-13"
 
+####
+# Thermal gas-phase reactions
+####
 
-
+O__O3 <- "5.6E-34 * N2 * (temp/300)@-2.6 * O2"
+O__O3 <- "6.0E-34 * O2 * (temp/300)@-2.6 * O2"
+O_O3__ <- "8.0E-12 * exp(-2060/temp)"
+O_NO__NO2 <- "KMT01"
+O_NO2__NO <- "5.5E-12 * exp(188/temp)"
+O_NO2__NO3 <- "KMT02"
+O1D__O <- "3.2E-11 * exp(67/temp) * O2"
+O1D__O <- "2.0E-11 * exp(130/temp) * N2"
+NO_O3__NO2 <- "1.4E-12 * exp(-1310/temp)"
+NO2_O3__NO3 <- "1.4E-13 * exp(-2470/temp)"
+NO_NO__NO2_NO2 <- "3.3E-39 * exp(530/temp) * O2"
+NO_NO3__NO2_NO2 <- "1.8E-11 * exp(110/temp)"
+NO2_NO3__NO_NO2 <- "4.5E-14 * exp(-1260/temp)"
+NO2_NO3__N2O5 <- "KMT03"
+O1D__OH_OH <- "2.14E-10 * H2O"
+OH_O3__HO2 <- "1.7E-12 * exp(-940/temp)"
+OH_H2__HO2 <- "7.7E-12 * exp(-2100/temp)"
+OH_CO__HO2 <- "KMT05"
+OH_H2O2__HO2 <- "2.9E-12 * exp(-160/temp)"
+HO2_O3__OH <- "2.03E-16 * ((temp/300)@4.57) * exp(693/temp)"
+OH_HO2__ <- "4.8E-11 * exp(250/temp)"
+HO2_HO2__H2O2 <- "2.20E-13 * KMT06 * exp(600/temp)"
+HO2_HO2__H2O2 <- "1.90E-33 * M * KMT06 * exp(980/temp)"
+OH_NO__HONO <- "KMT07"
+OH_NO2__HNO3 <- "KMT08"
+OH_NO3__HO2_NO2 <- "2.0E-11"
+HO2_NO__OH_NO2 <- "3.45E-12 * exp(270/temp)"
+HO2_NO2__HO2NO2 <- "KMT09"
+OH_HO2NO2__NO2 <- "3.2E-13 * exp(690/temp) * 1.0"
+HO2_NO3__OH_NO2 <- "4.0E-12"
+OH_HONO__NO2 <- "2.5E-12 * exp(260/temp)"
+OH_HNO3__NO3 <- "KMT11"
+O_SO2__SO3 <- "4.0E-32 * exp(-1000/temp) * M"
+OH_SO2__HSO3 <- "KMT12"
+HSO3__HO2_SO3 <- "1.3E-12 * exp(-330/temp) * O2"
+N2O5__NO2_NO3 <- "KMT04"
+HO2NO2__HO2_NO2 <- "KMT10"
