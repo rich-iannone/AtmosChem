@@ -826,3 +826,6 @@ DIBRET_OH__DIBRETO2  <- "1.03E-17 * temp@2  *exp(-422/temp)"
 DMM_NO3__DMMAO2_HNO3 <- "2.60E-16"
 DMM_OH__DMMAO2 <- "4.93E-12 * 0.76"
 DMM_OH__DMMBO2 <- "4.93E-12 * 0.24"
+
+# Dimethyl carbonate
+DMC_OH__DMCO2 <- "3.20E-13"
