@@ -817,3 +817,12 @@ CH3BR_OH__CH2BRO2 <- "7.40E-13 * exp(-875/temp)"
 
 # 1,2-Dibromoethane
 DIBRET_OH__DIBRETO2  <- "1.03E-17 * temp@2  *exp(-422/temp)"
+
+####
+# Reactions of other compounds
+####
+
+# Dimethoxy methane
+DMM_NO3__DMMAO2_HNO3 <- "2.60E-16"
+DMM_OH__DMMAO2 <- "4.93E-12 * 0.76"
+DMM_OH__DMMBO2 <- "4.93E-12 * 0.24"
