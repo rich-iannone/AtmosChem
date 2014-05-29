@@ -753,3 +753,6 @@ CH3CL_OH__CH2CLO2 <- "7.33E-18 * temp@2 * exp(-809/temp)"
 
 # Dichloromethane (methylene dichloride)
 CH2CL2_OH__CHCL2O2 <- "6.14E-18 * temp@2 * exp(-389/temp)"
+
+# Trichloromethane (chloroform)
+CHCL3_OH__CCL3O2 <- "1.80E-18 * temp@2 * exp(-129/temp)"
