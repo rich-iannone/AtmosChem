@@ -882,3 +882,9 @@ OH_SO2__HSO3 <- "KMT12"
 HSO3__HO2_SO3 <- "1.3E-12 * exp(-330/temp) * O2"
 N2O5__NO2_NO3 <- "KMT04"
 HO2NO2__HO2_NO2 <- "KMT10"
+
+####
+# Oxygenated compounds
+####
+
+C2H5O__CH3CHO_HO2 <- "2.4E-14 * exp(-325/temp) * O2"
