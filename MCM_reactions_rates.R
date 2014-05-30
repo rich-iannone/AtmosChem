@@ -911,6 +911,7 @@ CH3O2__CH3O <- "2 * KCH3O2 * RO2 * 7.18 * exp(-885/temp)"
 CH3O2__CH3OH <- "2 * KCH3O2 * RO2 * 0.5 * (1 - 7.18 * exp(-885/temp))"
 CH3O2__HCHO <- "2 * KCH3O2 * RO2 * 0.5 * (1 - 7.18 * exp(-885/temp))"
 
-
+PAN_OH__HCHO_CO_NO2 <- "3E-14"
+PAN__CH3CO3_NO2 <- "KBPAN"
 
 
