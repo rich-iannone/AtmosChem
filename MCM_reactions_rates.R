@@ -900,3 +900,17 @@ CH3CO3__CH3O2 <- "2 * (K298CH3O2 * 2.9E-12 * exp(500/temp))@0.5 * RO2 * 0.7"
 
 CH3CO3H_OH__CH3CO3 <- "3.70E-12"
 CH3CO3H__CH3O2_OH <- "J41"
+
+CH3O2_HO2__CH3OOH <- "3.8E-13 * exp(780/temp) * (1 - 1/(1 + 498 * exp(-1160/temp)))"
+CH3O2_HO2__HCHO <- "3.8E-13 * exp(780/temp) * (1/(1 + 498 * exp(-1160/temp)))"
+CH3O2_NO__CH3NO3 <- "2.3E-12 * exp(360/temp) * 0.001"
+CH3O2_NO__CH3O_NO2 <- "2.3E-12 * exp(360/temp) * 0.999"
+CH3O2_NO2__CH3O2NO2 <- "KMT13"
+CH3O2_NO3__CH3O_NO2 <- "1.2E-12"
+CH3O2__CH3O <- "2 * KCH3O2 * RO2 * 7.18 * exp(-885/temp)"
+CH3O2__CH3OH <- "2 * KCH3O2 * RO2 * 0.5 * (1 - 7.18 * exp(-885/temp))"
+CH3O2__HCHO <- "2 * KCH3O2 * RO2 * 0.5 * (1 - 7.18 * exp(-885/temp))"
+
+
+
+
