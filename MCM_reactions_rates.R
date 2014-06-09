@@ -1374,4 +1374,8 @@ IC3H7O2__CH3COCH3 <- "2 * (KCH3O2 * 1.6E-12 * exp(-2200/temp))@0.5 * RO2 * 0.2"
 IC3H7O2__IC3H7O <- "2 * (KCH3O2 * 1.6E-12 * exp(-2200/temp))@0.5 * RO2 * 0.6"
 IC3H7O2__IPROPOL <- "2 * (KCH3O2 * 1.6E-12 * exp(-2200/temp))@0.5 * RO2 * 0.2"
 
+IC3H7OOH__IC3H7O_OH <- "J41"
+IC3H7OOH_OH__CH3COCH3_OH <- "1.66E-11"
+IC3H7OOH_OH__IC3H7O2 <- "1.90E-12 * exp(190/temp)"
+
 
