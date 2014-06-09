@@ -1329,4 +1329,12 @@ C2H5CO3_NO3__C2H5O2_NO2 <- "KRO2NO3 * 1.74"
 C2H5CO3__C2H5O2 <- "1.00E-11 * RO2 * 0.7"
 C2H5CO3__PROPACID <- "1.00E-11 * RO2 * 0.3" 
 
+C2H5O2_HO2__C2H5OOH <- "4.3E-13 * exp(870/temp)"
+C2H5O2_NO__C2H5NO3 <- "2.55E-12 * exp(380/temp) * 0.009"
+C2H5O2_NO__C2H5O_NO2 <- "2.55E-12 * exp(380/temp) * 0.991"
+C2H5O2_NO3__C2H5O_NO2 <- "KRO2NO3"
+C2H5O2__C2H5O <- "2 * (KCH3O2 * 6.4E-14 * (temp/300)@0 * exp(0/temp))@0.5 * RO2 * 0.6"
+C2H5O2__C2H5OH <- "2 * (KCH3O2 * 6.4E-14 * (temp/300)@0 * exp(0/temp))@0.5 * RO2 * 0.2"
+C2H5O2__CH3CHO <- "2 * (KCH3O2 * 6.4E-14 * (temp/300)@0 * exp(0/temp))@0.5 * RO2 * 0.2"
+
 
