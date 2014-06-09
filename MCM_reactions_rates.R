@@ -1337,4 +1337,8 @@ C2H5O2__C2H5O <- "2 * (KCH3O2 * 6.4E-14 * (temp/300)@0 * exp(0/temp))@0.5 * RO2 
 C2H5O2__C2H5OH <- "2 * (KCH3O2 * 6.4E-14 * (temp/300)@0 * exp(0/temp))@0.5 * RO2 * 0.2"
 C2H5O2__CH3CHO <- "2 * (KCH3O2 * 6.4E-14 * (temp/300)@0 * exp(0/temp))@0.5 * RO2 * 0.2"
 
+C2H5OOH__C2H5O_OH <- "J41"
+C2H5OOH_OH__C2H5O2 <- "1.90E-12 * exp(190/temp)"
+C2H5OOH_OH__CH3CHO_OH <- "8.01E-12"
+
 
