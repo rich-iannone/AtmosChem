@@ -22,14 +22,22 @@ times <- seq(0, 3600*14, by = .1)
 
 # Define the reaction and assign a rate constant calcuation
 # as a string
-C5H8_OH__ISOPAO2 <- "2.7E-11 * exp(390/temp) * 0.148"
+C5H8_O3__MACR_CH2OOE <- "1.03E-14 * exp(-1995/temp) * 0.3"
+C5H8_O3__MVK_CH2OOE <- "1.03E-14 * exp(-1995/temp) * 0.2"
+C5H8_O3__MACROOA_HCHO <- "1.03E-14 * exp(-1995/temp) * 0.3"
+C5H8_O3__MVKOOA_HCHO <- "1.03E-14 * exp(-1995/temp) * 0.2"
 
 # Place the reaction objects into a vector
 reactions <- ls(pattern = "__")
 
 # Define the initial concentrations of non-oxidant species
 C5H8 <- 1.5589E15
-ISOPAO2 <- 1000
+MACR <- 0
+MVK <- 0
+MACROOA <- 0
+MVKOOA <- 0
+CH2OOE <- 0
+HCHO <- 0
 
 # Initialize the vector of initial concentrations
 yini <- vector(mode = "numeric", length = 0)
@@ -60,7 +68,7 @@ if (any(grepl("^OH$", products) == TRUE)) oxidant_prod <- "OH"
 if (any(grepl("^O3$", products) == TRUE)) oxidant_prod <- "O3"
 if (any(grepl("^NO3$", products) == TRUE)) oxidant_prod <- "NO3"
 
-# Obtain the reactants that not oxidants
+# Obtain the products that not oxidants
 if(exists("oxidant_prod") == TRUE){
 products_no_ox <- reactants[which(products != oxidant_prod)]
 }
@@ -70,20 +78,51 @@ if(exists("oxidant_prod") == FALSE){
 }
 
 # Set initial concentrations for products
+for (i in 1:length(products_no_ox)){
 yini <- c(yini,
           eval(parse(text = ls(pattern = paste("^",
-                                               products_no_ox, "$", sep = '')))))
+                                               products_no_ox[i], "$", sep = '')))))
+}
+
+yini <- c(1.56E15, 0, 0, 1.56E15, 0, 0, 1.56E15, 0, 0, 1.56E15, 0, 0)
 
 # Build a function to pass over to the integrator step
 kinetics <- function(t, y, p){
   
   # Evaluation of rate constants
-  k1 <- eval(parse(text=C5H8_OH__ISOPAO2))
+  #k1 <- eval(parse(text=C5H8_OH__ISOPAO2))
+  
+  k1 <- eval(parse(text=C5H8_O3__MACR_CH2OOE))
+  k2 <- eval(parse(text=C5H8_O3__MVK_CH2OOE))
+  k3 <- eval(parse(text=C5H8_O3__MACROOA_HCHO))
+  k4 <- eval(parse(text=C5H8_O3__MVKOOA_HCHO))
   
   # Equations here
-  ISO <- -k1*y[1]*OH_rad_cm3
-  ISOPAO2 <- k1*y[2]*OH_rad_cm3
-  list(c(ISO, ISOPAO2))
+  #ISO <- -k1*y[1]*OH_rad_cm3
+  #ISOPAO2 <- k1*y[1]*OH_rad_cm3
+  #list(c(ISO, ISOPAO2))
+  
+  C5H8 <- -k1 * y[1] * ozone_molecules_cm3
+  MACR <- k1 * y[1] * ozone_molecules_cm3
+  CH2OOE <- k1 * y[1] * ozone_molecules_cm3
+  
+  C5H8 <- -k2 * y[1] * ozone_molecules_cm3
+  MVK <- k2 * y[1] * ozone_molecules_cm3
+  CH2OOE <- k2 * y[1] * ozone_molecules_cm3
+  
+  C5H8 <- -k3 * y[1] * ozone_molecules_cm3
+  MACROOA <- k3 * y[1] * ozone_molecules_cm3
+  HCHO <- k3 * y[1] * ozone_molecules_cm3
+  
+  C5H8 <- -k4 * y[1] * ozone_molecules_cm3
+  MVKOOA <- k4 * y[1] * ozone_molecules_cm3
+  HCHO <- k4 * y[1] * ozone_molecules_cm3  
+  
+  list(c(C5H8, MACR, CH2OOE,
+         C5H8, MVK, CH2OOE,
+         C5H8, MACROOA, HCHO,
+         C5H8, MVKOOA, HCHO))
+  
 }
 
 # Perform model integrations and create a matrix object
@@ -92,4 +131,5 @@ out <- bimd(func = kinetics, times = times, y = yini, parms = NULL)
 # Plot a time series for each of the reactant and product concentrations
 plot(out, type = "l", lwd = 2)
 
-
+head(out)
+tail(out)
